@@ -1,0 +1,41 @@
+{
+    "name": "moment-tiny",
+    "version": "2.30.3",
+    "description": "Parse, validate, manipulate, and display dates",
+    "main": "./cjs/moment.js",
+    "module": "./esm/moment.min.js",
+    "types": "./types/moment.d.ts",
+    "exports": {
+        ".": {
+            "types": "./types/moment.d.ts",
+            "node": "./cjs/moment.js",
+            "require": "./cjs/moment.js",
+            "default": "./esm/moment.min.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ksloan/moment-tiny.git"
+    },
+    "keywords": [
+        "moment",
+        "date",
+        "time",
+        "parse",
+        "format",
+        "validate",
+        "i18n",
+        "l10n",
+        "ender"
+    ],
+    "author": "Tim Wood, Iskren Chernev, Moment.js contributors",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ksloan/moment-tiny/issues"
+    },
+    "homepage": "https://github.com/ksloan/moment-tiny#readme"
+}
