@@ -1,6 +1,6 @@
 {
     "name": "moment-tiny",
-    "version": "2.30.3",
+    "version": "2.30.4",
     "description": "Parse, validate, manipulate, and display dates",
     "main": "./cjs/moment.js",
     "module": "./esm/moment.min.js",
@@ -9,8 +9,8 @@
         ".": {
             "types": "./types/moment.d.ts",
             "node": "./cjs/moment.js",
-            "require": "./cjs/moment.js",
-            "default": "./esm/moment.min.js"
+            "import": "./esm/moment.min.js",
+            "require": "./cjs/moment.js"
         },
         "./package.json": "./package.json"
     },
