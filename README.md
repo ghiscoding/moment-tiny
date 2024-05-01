@@ -9,7 +9,7 @@ This package exposes 2 builds from the MomentJS projects (CJS and ESM), both of 
 - ESM which is [`/min/moment.min.js`](https://github.com/moment/moment/blob/develop/min/moment.min.js) (minified) located in GitHub Moment's project under `/min` folder
   - some info was detailed in this MomentJS [commit](https://github.com/moment/moment/commit/87994b745c20febf378ccd8f2dc190cd8d225020).
 
-This package will follow the [moment.js releases](https://github.com/moment/moment/releases).
+This package will follow the [moment.js releases](https://github.com/moment/moment/tags).
 
 ### What's the difference with [`moment-mini`](https://github.com/ksloan/moment-mini)?
 
